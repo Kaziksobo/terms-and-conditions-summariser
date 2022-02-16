@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>T&C Summariser</title>
+        <link rel="stylesheet" href="static/styles.css">
+    </head>
+    <body>
+        <h1>
+            Terms and Conditions Summariser
+        </h1>
+        <h3>
+            Creates both a paraphrased (abstractive) summary of the terms and conditions, as well as picking out the key information
+        </h3>
+        <div class="flex-container">
+            <div class="form">
+                <form action="/summary" method="post" autocomplete="off">
+                    <label for="text">
+                        <h2>Terms and Conditions input</h2>
+                    </label>
+                    <input type="text" id="text" name="text" placeholder="Paste in terms and conditions here"><br>
+                    <input type="reset" value="Clear">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="explanation">
+                <h2>
+                    Explanation
+                </h2>
+                <p>
+                    Insert explanation here
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
