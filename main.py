@@ -14,7 +14,7 @@ def summarise():
 
     summary_a = ab_summary(text_input)
     # summary_e = ex_summary(text_input)
-    summary_e = None
+    summary_e = 'Under construction'
 
     return render_template('summary.html', summary_a=summary_a, summary_e=summary_e)
 
