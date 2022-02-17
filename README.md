@@ -2,5 +2,5 @@
 
 ## UI screenshots
 
-! [home page](home.png "home page")
-! [summary page](summary.png "summary page")
+! [home page](static/home.png "home page")
+! [summary page](static/summary.png "summary page")
