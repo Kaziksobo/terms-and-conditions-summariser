@@ -10,11 +10,10 @@ def index():
 @app.route('/summary', methods=['POST'])
 def summarise():
     text_input = request.form['text']
-    
 
     summary_a = ab_summary(text_input)
-    # summary_e = ex_summary(text_input)
-    summary_e = 'Under construction'
+    
+    summary_e = ex_summary(text_input)
 
     return render_template('summary.html', summary_a=summary_a, summary_e=summary_e)
 
