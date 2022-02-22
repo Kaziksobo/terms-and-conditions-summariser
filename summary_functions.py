@@ -6,6 +6,9 @@ from nltk.tokenize import sent_tokenize
 import numpy as np
 import networkx as nx
 
+def preprocessing(text: str) -> str:
+    text = text.replace('\n', ' ')
+
 # abstractive summary generation
 def ab_summary(text: str) -> str:
     print('working')
